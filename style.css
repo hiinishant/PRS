@@ -30,7 +30,7 @@ body::before {
     inset: 0;
     background:
         linear-gradient(rgba(8, 17, 31, .86), rgba(8, 17, 31, .95)),
-        url("/resources/homebg.png") center/cover no-repeat;
+        url("./resources/homebg.png") center/cover no-repeat;
     z-index: -2;
 }
 
