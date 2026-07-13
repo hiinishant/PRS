@@ -81,6 +81,20 @@ body::after {
     letter-spacing: 2px;
 }
 
+.name {
+    display: flex;
+    flex-direction: row;
+    gap: 2px;
+    letter-spacing: 1px;
+    color: var(--white);
+    font-size: 10px;
+    margin-bottom: -10px;
+}
+
+.name p::first-letter {
+    color: var(--blue);
+}
+
 .navlinks {
     display: flex;
     gap: 35px;
